@@ -12,16 +12,16 @@ const Navbar = () => {
 
       <div className="flex items-center gap-4">
         <ul className="flex gap-6 text-xl">
-          <a href="">
+          <a href="" className="hover:underline decoration-black underline-offset-4">
             <li>About Us</li>
           </a>
-          <a href="">
+          <a href="" className="hover:underline decoration-black underline-offset-4">
             <li>Project</li>
           </a>
-          <a href="">
+          <a href="" className="hover:underline decoration-black underline-offset-4">
             <li>Services</li>
           </a>
-          <a href="">
+          <a href="" className="hover:underline decoration-black underline-offset-4">
             <li>Contact</li>
           </a>
         </ul>
