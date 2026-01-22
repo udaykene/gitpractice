@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <main className="h-full flex flex-col justify-center items-center w-full bg-[url('https://images.unsplash.com/vector-1746092444052-661ae4de13a4?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center">
+    <main className="h-full flex flex-col justify-center items-center w-full bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center">
       <div className="flex flex-col items-center justify-center text-center px-4">
         {/* Main Headline */}
         <h1 className="text-white text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg">
