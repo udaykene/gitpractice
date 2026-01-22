@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="text-4xl">
           <i class="ri-building-2-fill"></i>
         </div>
-        <h1 className="text-2xl font-bold flex gap-2">ParthBuilders</h1>
+        <h1 className="text-2xl font-bold flex gap-2">GreatBuilders</h1>
       </div>
 
       <div className="flex items-center gap-4">
@@ -16,10 +16,10 @@ const Navbar = () => {
             <li>About Us</li>
           </a>
           <a href="">
-            <li>Project</li>
+            <li>Our Services</li>
           </a>
           <a href="">
-            <li>Services</li>
+            <li>Sign Up</li>
           </a>
           <a href="">
             <li>Contact</li>
