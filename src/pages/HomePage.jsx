@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (
-    <div className='h-screen w-full bg-gray-800'>
+    <div className='h-screen relative w-full bg-gray-800'>
       <Navbar/>
       <Hero/>
       <Footer/>
