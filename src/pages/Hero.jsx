@@ -20,7 +20,7 @@ const Hero = () => {
           Get Started <span className="ml-2">→</span>
         </button>
 
-        <button className="px-8 py-3 bg-transparent border-2 border-white hover:bg-white/10 text-white font-medium rounded-lg flex items-center justify-center transition-all">
+        <button className="px-8 py-3 bg-transparent border-2 border-white hover:bg-blue-700 text-white font-medium rounded-lg flex items-center justify-center transition-all">
           <span className="mr-2">▶</span> Watch Demo
         </button>
       </div>
