@@ -1,5 +1,13 @@
 import React from "react";
-import { Phone, Mail, MapPin, Instagram, Linkedin, Facebook, Twitter } from 'lucide-react';
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Instagram,
+  Linkedin,
+  Facebook,
+  Twitter,
+} from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-[#0b1120] text-gray-400 py-12 px-6 md:px-16 font-sans">
@@ -7,17 +15,17 @@ const Footer = () => {
         {/* Company Info */}
         <div className="space-y-6">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
+            <div className=" bg-white px-2 py-1 rounded-full flex items-center justify-center">
               {/* Replace with your actual logo img tag */}
-              <div className="w-6 h-6 bg-orange-500 rounded-full"></div>
+              <div className="text-4xl text-black">
+                <i class="ri-building-2-fill"></i>
+              </div>
             </div>
-            <h2 className="text-white text-xl font-bold">
-              SunTouch Technology
-            </h2>
+            <h2 className="text-white text-xl font-bold">ParthBuilders</h2>
           </div>
           <p className="text-sm leading-relaxed">
-            We are a forward-thinking technology company dedicated to delivering
-            innovative solutions that help businesses thrive in the digital age.
+            Helping you find the perfect place to call home. We specialize in
+            premium residential and commercial real estate across the region.
           </p>
           <div className="flex space-x-3">
             {[Instagram, Linkedin, Twitter, Facebook].map((Icon, index) => (
@@ -61,11 +69,6 @@ const Footer = () => {
                 Team
               </a>
             </li>
-            <li>
-              <a href="#" className="hover:text-white">
-                Careers
-              </a>
-            </li>
           </ul>
         </div>
 
@@ -75,32 +78,32 @@ const Footer = () => {
           <ul className="space-y-4 text-sm">
             <li>
               <a href="#" className="hover:text-white">
-                App Development
+                Residential Sales
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-white">
-                Platform Development
+                Commercial Leasing
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-white">
-                Mobile Solutions
+                Property Management
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-white">
-                AI & Automation
+                Investment Consulting
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-white">
-                Cloud Hosting
+                Luxury Estates
               </a>
             </li>
             <li>
               <a href="#" className="hover:text-white">
-                Consulting
+                Home Staging
               </a>
             </li>
           </ul>
@@ -113,7 +116,7 @@ const Footer = () => {
             <div className="flex items-start space-x-3">
               <Phone size={20} className="text-blue-500 mt-1" />
               <div>
-                <p className="text-white font-medium">+91 75085 41325</p>
+                <p className="text-white font-medium">+91 8252926242</p>
                 <p className="text-xs text-gray-500">Mon-Fri 9am-6pm</p>
               </div>
             </div>
@@ -121,7 +124,7 @@ const Footer = () => {
               <Mail size={20} className="text-blue-500 mt-1" />
               <div>
                 <p className="text-white font-medium">
-                  suntouchtechnology01@gmail.com
+                  partbuilders01@gmail.com
                 </p>
                 <p className="text-xs text-gray-500">
                   We'll respond within 24hrs
@@ -131,7 +134,7 @@ const Footer = () => {
             <div className="flex items-start space-x-3">
               <MapPin size={20} className="text-blue-500 mt-1" />
               <div>
-                <p className="text-white font-medium">Chembur, Mumbai</p>
+                <p className="text-white font-medium">Ratnagiri, Maharashtra</p>
                 <p className="text-xs text-gray-500">India</p>
               </div>
             </div>
@@ -141,7 +144,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs space-y-4 md:space-y-0">
-        <p>© 2025 SunTouch Technology. All rights reserved.</p>
+        <p>© 2025 ParthBuilders. All rights reserved.</p>
         <div className="flex space-x-6">
           <a href="#" className="hover:text-white">
             Privacy Policy
