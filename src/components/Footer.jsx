@@ -21,7 +21,7 @@ const Footer = () => {
                 <i class="ri-building-2-fill"></i>
               </div>
             </div>
-            <h2 className="text-white text-xl font-bold">ParthBuilders</h2>
+            <h2 className="text-white text-xl font-bold">PreciousHomes</h2>
           </div>
           <p className="text-sm leading-relaxed">
             Helping you find the perfect place to call home. We specialize in
@@ -116,7 +116,7 @@ const Footer = () => {
             <div className="flex items-start space-x-3">
               <Phone size={20} className="text-blue-500 mt-1" />
               <div>
-                <p className="text-white font-medium">+91 8252926242</p>
+                <p className="text-white font-medium">+91 5168586824</p>
                 <p className="text-xs text-gray-500">Mon-Fri 9am-6pm</p>
               </div>
             </div>
@@ -124,7 +124,7 @@ const Footer = () => {
               <Mail size={20} className="text-blue-500 mt-1" />
               <div>
                 <p className="text-white font-medium">
-                  partbuilders01@gmail.com
+                  precioushomes24@gmail.com
                 </p>
                 <p className="text-xs text-gray-500">
                   We'll respond within 24hrs
@@ -134,7 +134,7 @@ const Footer = () => {
             <div className="flex items-start space-x-3">
               <MapPin size={20} className="text-blue-500 mt-1" />
               <div>
-                <p className="text-white font-medium">Ratnagiri, Maharashtra</p>
+                <p className="text-white font-medium">kalyan, Maharashtra</p>
                 <p className="text-xs text-gray-500">India</p>
               </div>
             </div>
@@ -144,7 +144,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs space-y-4 md:space-y-0">
-        <p>© 2025 ParthBuilders. All rights reserved.</p>
+        <p>© 2025 PreciousHomes. All rights reserved.</p>
         <div className="flex space-x-6">
           <a href="#" className="hover:text-white">
             Privacy Policy

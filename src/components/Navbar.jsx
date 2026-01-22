@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="text-4xl">
           <i class="ri-building-2-fill"></i>
         </div>
-        <h1 className="text-2xl font-bold flex gap-2">ParthBuilders</h1>
+        <h1 className="text-2xl font-bold flex gap-2">PreciousHomes</h1>
       </div>
 
       <div className="flex items-center gap-4">
