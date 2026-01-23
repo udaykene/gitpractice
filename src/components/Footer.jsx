@@ -117,7 +117,7 @@ const Footer = () => {
               <Phone size={20} className="text-blue-500 mt-1" />
               <div>
                 <p className="text-white font-medium">+91 8252926242</p>
-                <p className="text-xs text-gray-500">Mon-Fri 9am-6pm</p>
+                <p className="text-xs text-gray-500">Mon-Fri 10am-7pm</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
@@ -127,7 +127,7 @@ const Footer = () => {
                   partbuilders01@gmail.com
                 </p>
                 <p className="text-xs text-gray-500">
-                  We'll respond within 24hrs
+                  We'll respond within 36hrs
                 </p>
               </div>
             </div>
