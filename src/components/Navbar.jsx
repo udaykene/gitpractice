@@ -5,9 +5,9 @@ const Navbar = () => {
     <nav className="z-50 w-full flex fixed top-0  justify-between items-center px-12 py-4 bg-amber-50">
       <div className="flex justify-center gap-2 items-end">
         <div className="text-4xl">
-          <i class="ri-building-2-fill"></i>
+          <i class="ri-home-wifi-fill"></i>
         </div>
-        <h1 className="text-2xl font-bold flex gap-2">ParthBuilders</h1>
+        <h1 className="text-2xl font-bold flex gap-2">BhanushaliBrothers</h1>
       </div>
 
       <div className="flex items-center gap-4">
@@ -25,7 +25,7 @@ const Navbar = () => {
             <li>Contact</li>
           </a>
         </ul>
-        
+
       </div>
     </nav>
   );
