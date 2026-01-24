@@ -18,14 +18,14 @@ const Footer = () => {
             <div className=" bg-white px-2 py-1 rounded-full flex items-center justify-center">
               {/* Replace with your actual logo img tag */}
               <div className="text-4xl text-black">
-                <i class="ri-home-wifi-fill"></i>
+                <i class="ri-building-2-fill"></i>
               </div>
             </div>
-            <h2 className="text-white text-xl font-bold">BhanushaliBrothers</h2>
+            <h2 className="text-white text-xl font-bold">ParthBuilders</h2>
           </div>
           <p className="text-sm leading-relaxed">
-            “Stream Faster. Game Harder. Live Smarter
-            — with Bhanushali Brothers.
+            Helping you find the perfect place to call home. We specialize in
+            premium residential and commercial real estate across the region.
           </p>
           <div className="flex space-x-3">
             {[Instagram, Linkedin, Twitter, Facebook].map((Icon, index) => (
@@ -117,14 +117,14 @@ const Footer = () => {
               <Phone size={20} className="text-blue-500 mt-1" />
               <div>
                 <p className="text-white font-medium">+91 8252926242</p>
-                <p className="text-xs text-gray-500">Mon-sat 9am-6pm</p>
+                <p className="text-xs text-gray-500">Mon-Fri 9am-6pm</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <Mail size={20} className="text-blue-500 mt-1" />
               <div>
                 <p className="text-white font-medium">
-                  BBrothers205@gmail.com
+                  partbuilders01@gmail.com
                 </p>
                 <p className="text-xs text-gray-500">
                   We'll respond within 24hrs
@@ -134,7 +134,7 @@ const Footer = () => {
             <div className="flex items-start space-x-3">
               <MapPin size={20} className="text-blue-500 mt-1" />
               <div>
-                <p className="text-white font-medium">dombivali, Maharashtra</p>
+                <p className="text-white font-medium">Ratnagiri, Maharashtra</p>
                 <p className="text-xs text-gray-500">India</p>
               </div>
             </div>
@@ -144,7 +144,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center text-xs space-y-4 md:space-y-0">
-        <p>© 2025 BhanushaliBrothers. All rights reserved.</p>
+        <p>© 2025 ParthBuilders. All rights reserved.</p>
         <div className="flex space-x-6">
           <a href="#" className="hover:text-white">
             Privacy Policy
